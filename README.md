@@ -3,7 +3,7 @@
 An interactive Valentine's Day mini-application with a beating heart, smooth animations, and festive confetti. Built with pure JavaScript and CSS.
 
 ## 🚀 Live Demo
-**[View the live app here](https://kseniiasad.github.io/-Valentine-app/)**
+**[View the live app here](https://kseniiasad.github.io/Valentine-app/)**
 
 ## 📸 Preview
 ![App Screenshot](preview.png)
