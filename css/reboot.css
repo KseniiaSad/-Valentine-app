@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    background:
+        linear-gradient(135deg, #fff5e6 0%, #ffebcc 100%),
+        radial-gradient(circle at 20% 80%,
+            rgba(255, 179, 102, 0.5) 0%,
+            rgba(255, 204, 153, 0.3) 30%,
+            transparent 70%),
+        radial-gradient(circle at 80% 20%,
+            rgba(255, 153, 51, 0.4) 0%,
+            rgba(255, 178, 102, 0.2) 25%,
+            transparent 65%);
+    background-blend-mode: multiply;
+}
+
+main {
+    flex-grow: 1;
+}
+
+img {
+    display: block;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+}
